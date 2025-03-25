@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-03-25T18:32:08 IST" name="Default suite" finished-at="2025-03-25T18:33:30 IST" duration-ms="81941">
+    <groups>
+    </groups>
+    <test started-at="2025-03-25T18:32:08 IST" name="Default test" finished-at="2025-03-25T18:33:30 IST" duration-ms="81941">
+      <class name="highlineWarren.test.ValidateHighLineWarrenDOMTest">
+        <test-method is-config="true" signature="setupDriver(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:highlineWarren.test.ValidateHighLineWarrenDOMTest@4da602fc]" started-at="2025-03-25T18:32:08 IST" name="setupDriver" finished-at="2025-03-25T18:32:17 IST" duration-ms="8255" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1920x1080]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[local]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:highlineWarren.test.ValidateHighLineWarrenDOMTest@4da602fc]" started-at="2025-03-25T18:32:17 IST" name="beforeMethod" finished-at="2025-03-25T18:32:17 IST" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void highlineWarren.test.ValidateHighLineWarrenDOMTest.highLineWarrenTitleValidation()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="initializePageObjects()[pri:0, instance:highlineWarren.test.ValidateHighLineWarrenDOMTest@4da602fc]" started-at="2025-03-25T18:32:17 IST" name="initializePageObjects" finished-at="2025-03-25T18:32:17 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializePageObjects -->
+        <test-method signature="highLineWarrenTitleValidation()[pri:1, instance:highlineWarren.test.ValidateHighLineWarrenDOMTest@4da602fc]" started-at="2025-03-25T18:32:17 IST" name="highLineWarrenTitleValidation" finished-at="2025-03-25T18:32:17 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- highLineWarrenTitleValidation -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:highlineWarren.test.ValidateHighLineWarrenDOMTest@4da602fc]" started-at="2025-03-25T18:32:17 IST" name="afterMethod" finished-at="2025-03-25T18:32:17 IST" duration-ms="9" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=highLineWarrenTitleValidation status=SUCCESS method=ValidateHighLineWarrenDOMTest.highLineWarrenTitleValidation()[pri:1, instance:highlineWarren.test.ValidateHighLineWarrenDOMTest@4da602fc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:highlineWarren.test.ValidateHighLineWarrenDOMTest@4da602fc]" started-at="2025-03-25T18:32:17 IST" name="beforeMethod" finished-at="2025-03-25T18:32:17 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void highlineWarren.test.ValidateHighLineWarrenDOMTest.verifyHighLineWarrenLogo()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyHighLineWarrenLogo()[pri:2, instance:highlineWarren.test.ValidateHighLineWarrenDOMTest@4da602fc]" started-at="2025-03-25T18:32:17 IST" name="verifyHighLineWarrenLogo" finished-at="2025-03-25T18:32:17 IST" duration-ms="80" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHighLineWarrenLogo -->
+        <test-method is-config="true" signature="initializePageObjects()[pri:0, instance:highlineWarren.test.ValidateHighLineWarrenDOMTest@4da602fc]" started-at="2025-03-25T18:32:17 IST" name="initializePageObjects" finished-at="2025-03-25T18:32:17 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializePageObjects -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:highlineWarren.test.ValidateHighLineWarrenDOMTest@4da602fc]" started-at="2025-03-25T18:32:17 IST" name="afterMethod" finished-at="2025-03-25T18:32:17 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyHighLineWarrenLogo status=SUCCESS method=ValidateHighLineWarrenDOMTest.verifyHighLineWarrenLogo()[pri:2, instance:highlineWarren.test.ValidateHighLineWarrenDOMTest@4da602fc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="verifyHighLineWarrenUrl()[pri:3, instance:highlineWarren.test.ValidateHighLineWarrenDOMTest@4da602fc]" started-at="2025-03-25T18:32:17 IST" name="verifyHighLineWarrenUrl" finished-at="2025-03-25T18:32:17 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHighLineWarrenUrl -->
+        <test-method is-config="true" signature="initializePageObjects()[pri:0, instance:highlineWarren.test.ValidateHighLineWarrenDOMTest@4da602fc]" started-at="2025-03-25T18:32:17 IST" name="initializePageObjects" finished-at="2025-03-25T18:32:17 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializePageObjects -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:highlineWarren.test.ValidateHighLineWarrenDOMTest@4da602fc]" started-at="2025-03-25T18:32:17 IST" name="beforeMethod" finished-at="2025-03-25T18:32:17 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void highlineWarren.test.ValidateHighLineWarrenDOMTest.verifyHighLineWarrenUrl()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:highlineWarren.test.ValidateHighLineWarrenDOMTest@4da602fc]" started-at="2025-03-25T18:32:17 IST" name="afterMethod" finished-at="2025-03-25T18:32:17 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyHighLineWarrenUrl status=SUCCESS method=ValidateHighLineWarrenDOMTest.verifyHighLineWarrenUrl()[pri:3, instance:highlineWarren.test.ValidateHighLineWarrenDOMTest@4da602fc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:highlineWarren.test.ValidateHighLineWarrenDOMTest@4da602fc]" started-at="2025-03-25T18:32:17 IST" name="beforeMethod" finished-at="2025-03-25T18:32:17 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void highlineWarren.test.ValidateHighLineWarrenDOMTest.verifyBrowserByCategoryIsClickable() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyBrowserByCategoryIsClickable()[pri:4, instance:highlineWarren.test.ValidateHighLineWarrenDOMTest@4da602fc]" started-at="2025-03-25T18:32:17 IST" name="verifyBrowserByCategoryIsClickable" finished-at="2025-03-25T18:32:17 IST" duration-ms="112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBrowserByCategoryIsClickable -->
+        <test-method is-config="true" signature="initializePageObjects()[pri:0, instance:highlineWarren.test.ValidateHighLineWarrenDOMTest@4da602fc]" started-at="2025-03-25T18:32:17 IST" name="initializePageObjects" finished-at="2025-03-25T18:32:17 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializePageObjects -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:highlineWarren.test.ValidateHighLineWarrenDOMTest@4da602fc]" started-at="2025-03-25T18:32:17 IST" name="beforeMethod" finished-at="2025-03-25T18:32:17 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void highlineWarren.test.ValidateHighLineWarrenDOMTest.verifyAllCategoryAreScrollableAndCountAllCategories() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:highlineWarren.test.ValidateHighLineWarrenDOMTest@4da602fc]" started-at="2025-03-25T18:32:17 IST" name="afterMethod" finished-at="2025-03-25T18:32:17 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyBrowserByCategoryIsClickable status=SUCCESS method=ValidateHighLineWarrenDOMTest.verifyBrowserByCategoryIsClickable()[pri:4, instance:highlineWarren.test.ValidateHighLineWarrenDOMTest@4da602fc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="verifyAllCategoryAreScrollableAndCountAllCategories()[pri:5, instance:highlineWarren.test.ValidateHighLineWarrenDOMTest@4da602fc]" started-at="2025-03-25T18:32:17 IST" name="verifyAllCategoryAreScrollableAndCountAllCategories" finished-at="2025-03-25T18:32:58 IST" duration-ms="40870" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAllCategoryAreScrollableAndCountAllCategories -->
+        <test-method is-config="true" signature="initializePageObjects()[pri:0, instance:highlineWarren.test.ValidateHighLineWarrenDOMTest@4da602fc]" started-at="2025-03-25T18:32:17 IST" name="initializePageObjects" finished-at="2025-03-25T18:32:17 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializePageObjects -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:highlineWarren.test.ValidateHighLineWarrenDOMTest@4da602fc]" started-at="2025-03-25T18:32:58 IST" name="afterMethod" finished-at="2025-03-25T18:32:58 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAllCategoryAreScrollableAndCountAllCategories status=SUCCESS method=ValidateHighLineWarrenDOMTest.verifyAllCategoryAreScrollableAndCountAllCategories()[pri:5, instance:highlineWarren.test.ValidateHighLineWarrenDOMTest@4da602fc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:highlineWarren.test.ValidateHighLineWarrenDOMTest@4da602fc]" started-at="2025-03-25T18:32:58 IST" name="beforeMethod" finished-at="2025-03-25T18:32:58 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void highlineWarren.test.ValidateHighLineWarrenDOMTest.verifyFirstCategoryIsClickableAndFunctional() throws java.lang.InterruptedException,java.util.concurrent.TimeoutException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="initializePageObjects()[pri:0, instance:highlineWarren.test.ValidateHighLineWarrenDOMTest@4da602fc]" started-at="2025-03-25T18:32:58 IST" name="initializePageObjects" finished-at="2025-03-25T18:32:58 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializePageObjects -->
+        <test-method signature="verifyFirstCategoryIsClickableAndFunctional()[pri:6, instance:highlineWarren.test.ValidateHighLineWarrenDOMTest@4da602fc]" started-at="2025-03-25T18:32:58 IST" name="verifyFirstCategoryIsClickableAndFunctional" finished-at="2025-03-25T18:33:03 IST" duration-ms="5222" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFirstCategoryIsClickableAndFunctional -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:highlineWarren.test.ValidateHighLineWarrenDOMTest@4da602fc]" started-at="2025-03-25T18:33:03 IST" name="afterMethod" finished-at="2025-03-25T18:33:03 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyFirstCategoryIsClickableAndFunctional status=SUCCESS method=ValidateHighLineWarrenDOMTest.verifyFirstCategoryIsClickableAndFunctional()[pri:6, instance:highlineWarren.test.ValidateHighLineWarrenDOMTest@4da602fc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="verifySecondCategory()[pri:7, instance:highlineWarren.test.ValidateHighLineWarrenDOMTest@4da602fc]" started-at="2025-03-25T18:33:03 IST" name="verifySecondCategory" finished-at="2025-03-25T18:33:08 IST" duration-ms="5163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySecondCategory -->
+        <test-method is-config="true" signature="initializePageObjects()[pri:0, instance:highlineWarren.test.ValidateHighLineWarrenDOMTest@4da602fc]" started-at="2025-03-25T18:33:03 IST" name="initializePageObjects" finished-at="2025-03-25T18:33:03 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializePageObjects -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:highlineWarren.test.ValidateHighLineWarrenDOMTest@4da602fc]" started-at="2025-03-25T18:33:03 IST" name="beforeMethod" finished-at="2025-03-25T18:33:03 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void highlineWarren.test.ValidateHighLineWarrenDOMTest.verifySecondCategory() throws java.lang.InterruptedException,java.util.concurrent.TimeoutException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:highlineWarren.test.ValidateHighLineWarrenDOMTest@4da602fc]" started-at="2025-03-25T18:33:08 IST" name="afterMethod" finished-at="2025-03-25T18:33:08 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySecondCategory status=SUCCESS method=ValidateHighLineWarrenDOMTest.verifySecondCategory()[pri:7, instance:highlineWarren.test.ValidateHighLineWarrenDOMTest@4da602fc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="verifySecondCategoryFunctionalityWithBrands()[pri:8, instance:highlineWarren.test.ValidateHighLineWarrenDOMTest@4da602fc]" started-at="2025-03-25T18:33:08 IST" name="verifySecondCategoryFunctionalityWithBrands" finished-at="2025-03-25T18:33:14 IST" duration-ms="6268" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySecondCategoryFunctionalityWithBrands -->
+        <test-method is-config="true" signature="initializePageObjects()[pri:0, instance:highlineWarren.test.ValidateHighLineWarrenDOMTest@4da602fc]" started-at="2025-03-25T18:33:08 IST" name="initializePageObjects" finished-at="2025-03-25T18:33:08 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializePageObjects -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:highlineWarren.test.ValidateHighLineWarrenDOMTest@4da602fc]" started-at="2025-03-25T18:33:08 IST" name="beforeMethod" finished-at="2025-03-25T18:33:08 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void highlineWarren.test.ValidateHighLineWarrenDOMTest.verifySecondCategoryFunctionalityWithBrands() throws java.lang.InterruptedException,java.util.concurrent.TimeoutException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:highlineWarren.test.ValidateHighLineWarrenDOMTest@4da602fc]" started-at="2025-03-25T18:33:14 IST" name="beforeMethod" finished-at="2025-03-25T18:33:14 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void highlineWarren.test.ValidateHighLineWarrenDOMTest.verifySearchFunctionalityIsClickable()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:highlineWarren.test.ValidateHighLineWarrenDOMTest@4da602fc]" started-at="2025-03-25T18:33:14 IST" name="afterMethod" finished-at="2025-03-25T18:33:14 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySecondCategoryFunctionalityWithBrands status=SUCCESS method=ValidateHighLineWarrenDOMTest.verifySecondCategoryFunctionalityWithBrands()[pri:8, instance:highlineWarren.test.ValidateHighLineWarrenDOMTest@4da602fc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="verifySearchFunctionalityIsClickable()[pri:9, instance:highlineWarren.test.ValidateHighLineWarrenDOMTest@4da602fc]" started-at="2025-03-25T18:33:14 IST" name="verifySearchFunctionalityIsClickable" finished-at="2025-03-25T18:33:22 IST" duration-ms="7715" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchFunctionalityIsClickable -->
+        <test-method is-config="true" signature="initializePageObjects()[pri:0, instance:highlineWarren.test.ValidateHighLineWarrenDOMTest@4da602fc]" started-at="2025-03-25T18:33:14 IST" name="initializePageObjects" finished-at="2025-03-25T18:33:14 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializePageObjects -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:highlineWarren.test.ValidateHighLineWarrenDOMTest@4da602fc]" started-at="2025-03-25T18:33:22 IST" name="afterMethod" finished-at="2025-03-25T18:33:22 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySearchFunctionalityIsClickable status=SUCCESS method=ValidateHighLineWarrenDOMTest.verifySearchFunctionalityIsClickable()[pri:9, instance:highlineWarren.test.ValidateHighLineWarrenDOMTest@4da602fc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:highlineWarren.test.ValidateHighLineWarrenDOMTest@4da602fc]" started-at="2025-03-25T18:33:22 IST" name="beforeMethod" finished-at="2025-03-25T18:33:22 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void highlineWarren.test.ValidateHighLineWarrenDOMTest.verifySearchFunctionalityWithBrands() throws java.lang.InterruptedException,java.util.concurrent.TimeoutException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="initializePageObjects()[pri:0, instance:highlineWarren.test.ValidateHighLineWarrenDOMTest@4da602fc]" started-at="2025-03-25T18:33:22 IST" name="initializePageObjects" finished-at="2025-03-25T18:33:22 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializePageObjects -->
+        <test-method signature="verifySearchFunctionalityWithBrands()[pri:10, instance:highlineWarren.test.ValidateHighLineWarrenDOMTest@4da602fc]" started-at="2025-03-25T18:33:22 IST" name="verifySearchFunctionalityWithBrands" finished-at="2025-03-25T18:33:30 IST" duration-ms="7664" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchFunctionalityWithBrands -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:highlineWarren.test.ValidateHighLineWarrenDOMTest@4da602fc]" started-at="2025-03-25T18:33:30 IST" name="afterMethod" finished-at="2025-03-25T18:33:30 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySearchFunctionalityWithBrands status=SUCCESS method=ValidateHighLineWarrenDOMTest.verifySearchFunctionalityWithBrands()[pri:10, instance:highlineWarren.test.ValidateHighLineWarrenDOMTest@4da602fc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:highlineWarren.test.ValidateHighLineWarrenDOMTest@4da602fc]" started-at="2025-03-25T18:33:30 IST" name="afterTest" finished-at="2025-03-25T18:33:30 IST" duration-ms="512" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- highlineWarren.test.ValidateHighLineWarrenDOMTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

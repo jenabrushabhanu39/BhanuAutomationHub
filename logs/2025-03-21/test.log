@@ -1,0 +1,6 @@
+2025-03-21 22:22:37 [main] INFO  base.BaseTest - Initializing WebDriver...
+2025-03-21 22:22:46 [main] INFO  base.BaseTest - WebDriver initialized successfully.
+2025-03-21 22:22:46 [main] INFO  base.BaseTest - Initializing Extent Report setup...
+2025-03-21 22:22:46 [main] INFO  base.BaseTest - Extent Report setup completed.
+2025-03-21 22:22:46 [main] INFO  base.BaseTest - Starting test: highLineWarrenTitleValidation
+2025-03-21 22:22:46 [main] INFO  base.BaseTest - Starting test: verifyHPPUserLoginPageisLoading

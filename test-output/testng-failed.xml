@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [HighLineWarren Sanity Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="utils.SuiteListener"/>
+  </listeners>
+  <test thread-count="5" parallel="tests" name="FireFoxTest(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="highlineWarren.test.HighLineWarrenDemoTest">
+        <methods>
+          <include name="verifyBrowserByCategoryIsClickable"/>
+          <include name="initializePageObjects"/>
+          <include name="setupDriver"/>
+          <include name="verifySearchFunctionalityIsClickable"/>
+          <include name="verifyHighLineWarrenUrl"/>
+          <include name="verifySearchFunctionalityWithBrands"/>
+          <include name="verifyHighLineWarrenLogo"/>
+          <include name="highLineWarrenTitleValidation"/>
+          <include name="verifySecondCategoryFunctionalityWithBrands"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeMethod"/>
+          <include name="verifyAllCategoryAreScrollableAndCountAllCategories"/>
+          <include name="verifyFirstCategoryIsClickableAndFunctional"/>
+          <include name="verifySecondCategory"/>
+        </methods>
+      </class> <!-- highlineWarren.test.HighLineWarrenDemoTest -->
+      <class name="highlineWarren.test.ValidateHighLineWarrenDOMTest">
+        <methods>
+          <include name="highLineWarrenTitleValidation"/>
+          <include name="setupDriver"/>
+          <include name="verifySecondCategoryFunctionalityWithBrands"/>
+          <include name="verifySearchFunctionalityWithBrands"/>
+          <include name="verifyHighLineWarrenUrl"/>
+          <include name="verifyBrowserByCategoryIsClickable"/>
+          <include name="verifyHighLineWarrenLogo"/>
+          <include name="verifySearchFunctionalityIsClickable"/>
+          <include name="afterMethod"/>
+          <include name="verifyFirstCategoryIsClickableAndFunctional"/>
+          <include name="verifySecondCategory"/>
+          <include name="initializePageObjects"/>
+          <include name="verifyAllCategoryAreScrollableAndCountAllCategories"/>
+          <include name="afterTest"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- highlineWarren.test.ValidateHighLineWarrenDOMTest -->
+    </classes>
+  </test> <!-- FireFoxTest(failed) -->
+</suite> <!-- Failed suite [HighLineWarren Sanity Suite] -->

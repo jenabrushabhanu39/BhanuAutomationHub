@@ -1,0 +1,374 @@
+<html>
+<head>
+<title>TestNG:  FireFoxTest</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>FireFoxTest</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>19/0/3</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Mar 25 17:59:45 IST 2025</td>
+</tr>
+<tr><td>Total time:</td><td>158 seconds (158989 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='highlineWarren.test.HighLineWarrenDemoTest.verifySecondCategoryFunctionalityWithBrands()'><b>verifySecondCategoryFunctionalityWithBrands</b><br>Test class: highlineWarren.test.HighLineWarrenDemoTest</td>
+<td></td>
+<td>6</td>
+<td>highlineWarren.test.HighLineWarrenDemoTest@58359ebd</td></tr>
+<tr>
+<td title='highlineWarren.test.ValidateHighLineWarrenDOMTest.verifySecondCategoryFunctionalityWithBrands()'><b>verifySecondCategoryFunctionalityWithBrands</b><br>Test class: highlineWarren.test.ValidateHighLineWarrenDOMTest</td>
+<td></td>
+<td>6</td>
+<td>highlineWarren.test.ValidateHighLineWarrenDOMTest@72cf2de5</td></tr>
+<tr>
+<td title='highlineWarren.test.HighLineWarrenDemoTest.verifyHighLineWarrenUrl()'><b>verifyHighLineWarrenUrl</b><br>Test class: highlineWarren.test.HighLineWarrenDemoTest</td>
+<td></td>
+<td>0</td>
+<td>highlineWarren.test.HighLineWarrenDemoTest@58359ebd</td></tr>
+<tr>
+<td title='highlineWarren.test.ValidateHighLineWarrenDOMTest.highLineWarrenTitleValidation()'><b>highLineWarrenTitleValidation</b><br>Test class: highlineWarren.test.ValidateHighLineWarrenDOMTest</td>
+<td></td>
+<td>0</td>
+<td>highlineWarren.test.ValidateHighLineWarrenDOMTest@72cf2de5</td></tr>
+<tr>
+<td title='highlineWarren.test.ValidateHighLineWarrenDOMTest.verifyHighLineWarrenUrl()'><b>verifyHighLineWarrenUrl</b><br>Test class: highlineWarren.test.ValidateHighLineWarrenDOMTest</td>
+<td></td>
+<td>0</td>
+<td>highlineWarren.test.ValidateHighLineWarrenDOMTest@72cf2de5</td></tr>
+<tr>
+<td title='highlineWarren.test.HighLineWarrenDemoTest.verifyBrowserByCategoryIsClickable()'><b>verifyBrowserByCategoryIsClickable</b><br>Test class: highlineWarren.test.HighLineWarrenDemoTest</td>
+<td></td>
+<td>0</td>
+<td>highlineWarren.test.HighLineWarrenDemoTest@58359ebd</td></tr>
+<tr>
+<td title='highlineWarren.test.ValidateHighLineWarrenDOMTest.verifyAllCategoryAreScrollableAndCountAllCategories()'><b>verifyAllCategoryAreScrollableAndCountAllCategories</b><br>Test class: highlineWarren.test.ValidateHighLineWarrenDOMTest</td>
+<td></td>
+<td>41</td>
+<td>highlineWarren.test.ValidateHighLineWarrenDOMTest@72cf2de5</td></tr>
+<tr>
+<td title='highlineWarren.test.ValidateHighLineWarrenDOMTest.verifyBrowserByCategoryIsClickable()'><b>verifyBrowserByCategoryIsClickable</b><br>Test class: highlineWarren.test.ValidateHighLineWarrenDOMTest</td>
+<td></td>
+<td>0</td>
+<td>highlineWarren.test.ValidateHighLineWarrenDOMTest@72cf2de5</td></tr>
+<tr>
+<td title='highlineWarren.test.ValidateHighLineWarrenDOMTest.verifyFirstCategoryIsClickableAndFunctional()'><b>verifyFirstCategoryIsClickableAndFunctional</b><br>Test class: highlineWarren.test.ValidateHighLineWarrenDOMTest</td>
+<td></td>
+<td>5</td>
+<td>highlineWarren.test.ValidateHighLineWarrenDOMTest@72cf2de5</td></tr>
+<tr>
+<td title='highlineWarren.test.ValidateHighLineWarrenDOMTest.verifySecondCategory()'><b>verifySecondCategory</b><br>Test class: highlineWarren.test.ValidateHighLineWarrenDOMTest</td>
+<td></td>
+<td>4</td>
+<td>highlineWarren.test.ValidateHighLineWarrenDOMTest@72cf2de5</td></tr>
+<tr>
+<td title='highlineWarren.test.HighLineWarrenDemoTest.verifyAllCategoryAreScrollableAndCountAllCategories()'><b>verifyAllCategoryAreScrollableAndCountAllCategories</b><br>Test class: highlineWarren.test.HighLineWarrenDemoTest</td>
+<td></td>
+<td>44</td>
+<td>highlineWarren.test.HighLineWarrenDemoTest@58359ebd</td></tr>
+<tr>
+<td title='highlineWarren.test.ValidateHighLineWarrenDOMTest.verifySearchFunctionalityIsClickable()'><b>verifySearchFunctionalityIsClickable</b><br>Test class: highlineWarren.test.ValidateHighLineWarrenDOMTest</td>
+<td></td>
+<td>4</td>
+<td>highlineWarren.test.ValidateHighLineWarrenDOMTest@72cf2de5</td></tr>
+<tr>
+<td title='highlineWarren.test.HighLineWarrenDemoTest.highLineWarrenTitleValidation()'><b>highLineWarrenTitleValidation</b><br>Test class: highlineWarren.test.HighLineWarrenDemoTest</td>
+<td></td>
+<td>0</td>
+<td>highlineWarren.test.HighLineWarrenDemoTest@58359ebd</td></tr>
+<tr>
+<td title='highlineWarren.test.HighLineWarrenDemoTest.verifyHighLineWarrenLogo()'><b>verifyHighLineWarrenLogo</b><br>Test class: highlineWarren.test.HighLineWarrenDemoTest</td>
+<td></td>
+<td>0</td>
+<td>highlineWarren.test.HighLineWarrenDemoTest@58359ebd</td></tr>
+<tr>
+<td title='highlineWarren.test.ValidateHighLineWarrenDOMTest.verifyHighLineWarrenLogo()'><b>verifyHighLineWarrenLogo</b><br>Test class: highlineWarren.test.ValidateHighLineWarrenDOMTest</td>
+<td></td>
+<td>0</td>
+<td>highlineWarren.test.ValidateHighLineWarrenDOMTest@72cf2de5</td></tr>
+<tr>
+<td title='highlineWarren.test.HighLineWarrenDemoTest.verifySecondCategory()'><b>verifySecondCategory</b><br>Test class: highlineWarren.test.HighLineWarrenDemoTest</td>
+<td></td>
+<td>4</td>
+<td>highlineWarren.test.HighLineWarrenDemoTest@58359ebd</td></tr>
+<tr>
+<td title='highlineWarren.test.HighLineWarrenDemoTest.verifySearchFunctionalityIsClickable()'><b>verifySearchFunctionalityIsClickable</b><br>Test class: highlineWarren.test.HighLineWarrenDemoTest</td>
+<td></td>
+<td>5</td>
+<td>highlineWarren.test.HighLineWarrenDemoTest@58359ebd</td></tr>
+<tr>
+<td title='highlineWarren.test.HighLineWarrenDemoTest.verifyFirstCategoryIsClickableAndFunctional()'><b>verifyFirstCategoryIsClickableAndFunctional</b><br>Test class: highlineWarren.test.HighLineWarrenDemoTest</td>
+<td></td>
+<td>5</td>
+<td>highlineWarren.test.HighLineWarrenDemoTest@58359ebd</td></tr>
+<tr>
+<td title='highlineWarren.test.HighLineWarrenDemoTest.verifySearchFunctionalityWithBrands()'><b>verifySearchFunctionalityWithBrands</b><br>Test class: highlineWarren.test.HighLineWarrenDemoTest</td>
+<td></td>
+<td>7</td>
+<td>highlineWarren.test.HighLineWarrenDemoTest@58359ebd</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='highlineWarren.test.ValidateHighLineWarrenDOMTest.verifySearchFunctionalityWithBrands()'><b>verifySearchFunctionalityWithBrands</b><br>Test class: highlineWarren.test.ValidateHighLineWarrenDOMTest</td>
+<td><div><pre>org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: &apos;4.24.0&apos;, revision: &apos;748ffc9bc3&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [null, findElement {value=(//input[@name=&apos;SearchTerm&apos;])[1], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 136.0.2, moz:accessibilityChecks: false, moz:buildID: 20250317120031, moz:debuggerAddress: 127.0.0.1:19495, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 12420, moz:profile: C:\Users\BRUSHA~1.JEN\AppDa..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:19495/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:151)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at pageEvents.LoginPageEvents.searchForItem(LoginPageEvents.java:58)
+	at highlineWarren.test.ValidateHighLineWarrenDOMTest.verifySearchFunctionalityWithBrands(ValidateHighLineWarrenDOMTest.java:280)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace590640918", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace590640918'><pre>org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: &apos;4.24.0&apos;, revision: &apos;748ffc9bc3&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [null, findElement {value=(//input[@name=&apos;SearchTerm&apos;])[1], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 136.0.2, moz:accessibilityChecks: false, moz:buildID: 20250317120031, moz:debuggerAddress: 127.0.0.1:19495, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 12420, moz:profile: C:\Users\BRUSHA~1.JEN\AppDa..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:19495/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:151)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at pageEvents.LoginPageEvents.searchForItem(LoginPageEvents.java:58)
+	at highlineWarren.test.ValidateHighLineWarrenDOMTest.verifySearchFunctionalityWithBrands(ValidateHighLineWarrenDOMTest.java:280)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+</pre></div></td>
+<td>0</td>
+<td>highlineWarren.test.ValidateHighLineWarrenDOMTest@72cf2de5</td></tr>
+<tr>
+<td title='highlineWarren.test.ValidateHighLineWarrenDOMTest.verifySearchFunctionalityWithBrands()'><b>verifySearchFunctionalityWithBrands</b><br>Test class: highlineWarren.test.ValidateHighLineWarrenDOMTest</td>
+<td><div><pre>org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: &apos;4.24.0&apos;, revision: &apos;748ffc9bc3&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [null, findElement {value=(//input[@name=&apos;SearchTerm&apos;])[1], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 136.0.2, moz:accessibilityChecks: false, moz:buildID: 20250317120031, moz:debuggerAddress: 127.0.0.1:19495, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 12420, moz:profile: C:\Users\BRUSHA~1.JEN\AppDa..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:19495/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:151)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at pageEvents.LoginPageEvents.searchForItem(LoginPageEvents.java:58)
+	at highlineWarren.test.ValidateHighLineWarrenDOMTest.verifySearchFunctionalityWithBrands(ValidateHighLineWarrenDOMTest.java:280)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace881696856", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace881696856'><pre>org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: &apos;4.24.0&apos;, revision: &apos;748ffc9bc3&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [null, findElement {value=(//input[@name=&apos;SearchTerm&apos;])[1], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 136.0.2, moz:accessibilityChecks: false, moz:buildID: 20250317120031, moz:debuggerAddress: 127.0.0.1:19495, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 12420, moz:profile: C:\Users\BRUSHA~1.JEN\AppDa..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:19495/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:151)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at pageEvents.LoginPageEvents.searchForItem(LoginPageEvents.java:58)
+	at highlineWarren.test.ValidateHighLineWarrenDOMTest.verifySearchFunctionalityWithBrands(ValidateHighLineWarrenDOMTest.java:280)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+</pre></div></td>
+<td>0</td>
+<td>highlineWarren.test.ValidateHighLineWarrenDOMTest@72cf2de5</td></tr>
+<tr>
+<td title='highlineWarren.test.ValidateHighLineWarrenDOMTest.verifySearchFunctionalityWithBrands()'><b>verifySearchFunctionalityWithBrands</b><br>Test class: highlineWarren.test.ValidateHighLineWarrenDOMTest</td>
+<td><div><pre>org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: &apos;4.24.0&apos;, revision: &apos;748ffc9bc3&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [null, findElement {value=(//input[@name=&apos;SearchTerm&apos;])[1], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 136.0.2, moz:accessibilityChecks: false, moz:buildID: 20250317120031, moz:debuggerAddress: 127.0.0.1:19495, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 12420, moz:profile: C:\Users\BRUSHA~1.JEN\AppDa..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:19495/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:151)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at pageEvents.LoginPageEvents.searchForItem(LoginPageEvents.java:58)
+	at highlineWarren.test.ValidateHighLineWarrenDOMTest.verifySearchFunctionalityWithBrands(ValidateHighLineWarrenDOMTest.java:280)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace218171771", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace218171771'><pre>org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: &apos;4.24.0&apos;, revision: &apos;748ffc9bc3&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [null, findElement {value=(//input[@name=&apos;SearchTerm&apos;])[1], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 136.0.2, moz:accessibilityChecks: false, moz:buildID: 20250317120031, moz:debuggerAddress: 127.0.0.1:19495, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 12420, moz:profile: C:\Users\BRUSHA~1.JEN\AppDa..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:19495/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:151)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at pageEvents.LoginPageEvents.searchForItem(LoginPageEvents.java:58)
+	at highlineWarren.test.ValidateHighLineWarrenDOMTest.verifySearchFunctionalityWithBrands(ValidateHighLineWarrenDOMTest.java:280)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+</pre></div></td>
+<td>0</td>
+<td>highlineWarren.test.ValidateHighLineWarrenDOMTest@72cf2de5</td></tr>
+</table><p>
+</body>
+</html>
